@@ -1,0 +1,14 @@
+.bulb {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  position: relative;
+
+  span {
+    @include center-absolute;
+
+    border-radius: 50%;
+    line-height: 100%;
+    text-align: center;
+  }
+}

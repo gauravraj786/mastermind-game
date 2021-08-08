@@ -1,0 +1,38 @@
+$default-border: (
+  width: 2px,
+  color: #000,
+  style: solid,
+  radius: 10px,
+);
+
+$default-bulbs: (
+  i-incorrect: (
+    background-color: #ccc,
+    width: 45%,
+    height: 45%
+  ),
+  i-exists: (
+    background-color: #fff,
+    width: 65%,
+    height: 65%
+  ),
+  i-correct: (
+    background-color: #000,
+    width: 65%,
+    height: 65%
+  )
+);
+
+$default-colors: (
+  zero: #ff0,
+  one: #ffa500,
+  two: #f00,
+  three: #800080,
+  four: #00f,
+  five: #008000
+);
+
+$row-bg: map-merge($row-bg, (default: #d09b88));
+$row-border: map-merge($row-border, (default: $default-border));
+$bulbs: map-merge($bulbs, (default: $default-bulbs));
+$colors: map-merge($colors, (default: $default-colors));

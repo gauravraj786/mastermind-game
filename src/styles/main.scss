@@ -1,0 +1,9 @@
+@import './Layout';
+
+.mastermind-game {
+  @import 'componentsStyles/utils/all';
+  @import 'componentsStyles/all';
+  @import 'componentsStyles/themes/all';
+}
+
+@import 'componentsStyles/modals/all';
