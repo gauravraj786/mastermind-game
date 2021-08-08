@@ -7,11 +7,11 @@ const Board = ({ config, rows, secret, activeRow, activeSlot, results }) => {
     let i,
       boardRows = [];
 
-    for (i = config.maxRows - 1; i >= 0; i -= 1) {
+    for (i = 0; i < config.maxRows; i ++) {
       const slots = rows[i];
 
       boardRows.push(
-        <div key={i}>
+        <div key={i} className="flex">
           <Row
             slots={slots}
             length={secret.length}

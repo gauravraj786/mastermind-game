@@ -1,7 +1,7 @@
 .mm-peg {
   $wrapper-width: ($row-width / $slots-count);
   $wrapper-height: $row-height;
-  $peg-size: $wrapper-width / 1px * .62;
+  $peg-size: 30px;
   $peg-border: 2px;
 
   width: $peg-size;

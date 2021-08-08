@@ -4,4 +4,56 @@ html {
   body {
     font-size: 1.4rem;
   }
+
+  h1 {
+    span {
+      color: #FFFFFF;
+      padding: 0 5px;
+    }
+    .M {
+      background: #FFB400;
+    }
+    .A {
+      background: #FF5A5F;
+    }
+    .S {
+      background: #8CE071;
+    }
+    .T {
+      background: #00D1C1;
+    }
+    .E {
+      background: #007A87;
+    }
+    .R {
+      background: #7B0051;
+    }
+    .MIND {
+      color: #000;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rules {
+	margin: 20px 0;
+}
+
+.rules-toggle {
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+.info {
+	border: #EAEBE9 1px solid;
+	padding: 10px;
+}
+
+.hidden {
+	display: none;
 }

@@ -24,15 +24,15 @@ $default-bulbs: (
 );
 
 $default-colors: (
-  zero: #ff0,
-  one: #ffa500,
-  two: #f00,
-  three: #800080,
-  four: #00f,
-  five: #008000
+  zero: #FFB400,
+  one: #FF5A5F,
+  two: #8CE071,
+  three: #00D1C1,
+  four: #007A87,
+  five: #7B0051,
 );
 
-$row-bg: map-merge($row-bg, (default: #d09b88));
+$row-bg: map-merge($row-bg, (default: #F4F4F4));
 $row-border: map-merge($row-border, (default: $default-border));
 $bulbs: map-merge($bulbs, (default: $default-bulbs));
 $colors: map-merge($colors, (default: $default-colors));
